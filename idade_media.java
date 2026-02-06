@@ -2,7 +2,7 @@ import java.util.Locale;
 import java.util.Scanner;
 
 
-public class idade_media {
+public class exercicios {
     
     public static void main(String[] args) {
         
@@ -57,7 +57,7 @@ public class idade_media {
         }
             System.out.println();
         
-            System.out.println("idade média das " + pessoas + " pessoas " + "e de " + String.format("%.1f", media) + " anos");
+            System.out.printf("idade média das %d pessoas e de %.1f anos%n", pessoas, Idades);
 
 
             System.out.print("Deseja repetir? (s/n)");
