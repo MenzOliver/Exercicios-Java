@@ -37,10 +37,10 @@ public class idade_media {
         }
 
 
-        // a matriz, sempre deve estar dentro da estrutura for. Para armazenar o valor de uma matriz, e ela ser usada num cáculo por exemplo, deve-se
+        // o vetor, sempre deve estar dentro da estrutura for. Para armazenar o valor de uma vetor, e ela ser usada num cáculo por exemplo, deve-se
         // 1. Criar uma nova variável 
         // 2. Criar a estrutura "for" da mesma forma que as outras
-        // 3. Usar o operador "+=" para atribuir o valor com a somada matriz na nova variável
+        // 3. Usar o operador "+=" para atribuir o valor com a somada vetor na nova variável
 
 
         double Idades = 0;
@@ -62,7 +62,7 @@ public class idade_media {
 
             System.out.print("Deseja repetir? (s/n)");
             resp = sc.next().charAt(0);
-        } while(resp == 's');
+        } while(Character.toLowerCase(resp) == 's');
 
 
         sc.close();
